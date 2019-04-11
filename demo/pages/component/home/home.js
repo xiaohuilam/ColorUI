@@ -1,4 +1,7 @@
-Page({
+Component({
+  options: {
+    addGlobalClass: true,
+  },
   data: {
     elements: [
       { title: '操作条', name: 'bar', color: 'purple', icon: 'vipcard' },
@@ -12,7 +15,5 @@ Page({
       { title: '模态框', name: 'modal', color: 'grey', icon: 'squarecheckfill' },
       { title: '步骤条', name: 'steps', color: 'cyan', icon: 'roundcheckfill' },
     ],
-  },
-  onLoad: function () {
   },
 })
